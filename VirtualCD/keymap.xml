@@ -1,0 +1,54 @@
+<keymap>
+	<map context="VirtualCDActionsStart">
+		<key id="KEY_STOP" mapto="runvirtualcd" flags="m" />
+	</map>
+	<map context="VirtualCDActions">
+		<key id="KEY_UP" mapto="albumUp" flags="m" />
+		<key id="KEY_DOWN" mapto="albumDn" flags="m" />
+		<key id="KEY_PAGEUP" mapto="albumPgUp" flags="m" />
+		<key id="KEY_PAGEDOWN" mapto="albumPgDn" flags="m" />
+		<key id="KEY_CHANNELUP" mapto="nop" flags="m" />
+		<key id="KEY_CHANNELDOWN" mapto="nop" flags="m" />
+		
+		<key id="KEY_LEFT" mapto="songPrev" flags="m" />
+		<key id="KEY_RIGHT" mapto="songNext" flags="m" />
+		
+		
+		<key id="KEY_NEXT" mapto="nop" flags="m" />
+		<key id="KEY_PREVIOUS" mapto="nop" flags="m" />
+		<key id="KEY_REWIND" mapto="nop" flags="m" />
+		<key id="KEY_FASTFORWARD" mapto="nop" flags="m" />
+
+		<key id="KEY_OK" mapto="keyOK" flags="m" />
+		<key id="KEY_ENTER" mapto="nop" flags="m" />
+
+		<key id="KEY_HOME" mapto="exit" flags="m" />
+		<key id="KEY_EXIT" mapto="exit" flags="m" />
+		<key id="KEY_BACK" mapto="exit" flags="m" />
+		<key id="KEY_ESC" mapto="exit" flags="m" />
+
+		<key id="KEY_PAUSE" mapto="songPause" flags="m" />
+		<key id="KEY_PLAYPAUSE" mapto="nop" flags="m" />
+		<key id="KEY_PLAY" mapto="songPlay" flags="m" />
+		<key id="KEY_STOP" mapto="songStop" flags="m" />
+		
+		<key id="KEY_OPTION" mapto="nop" flags="m" />
+		<key id="KEY_END" mapto="nop" flags="m" />
+		<key id="KEY_BACK" mapto="nop" flags="m" />
+		<key id="KEY_FORWARD" mapto="nop" flags="m" />
+		
+		<key id="KEY_HELP" mapto="nop" flags="m" />
+		<key id="KEY_RED" mapto="nop" flags="m" />
+		<key id="KEY_GREEN" mapto="nop" flags="m" />
+		<key id="KEY_YELLOW" mapto="nop" flags="m" />
+		<key id="KEY_BLUE" mapto="nop" flags="m" />
+		
+		<key id="KEY_1" mapto="nop" flags="m" />
+		<key id="KEY_3" mapto="nop" flags="m" />
+		<key id="KEY_4" mapto="nop" flags="m" />
+		<key id="KEY_6" mapto="nop" flags="m" />
+		<key id="KEY_7" mapto="nop" flags="m" />
+		<key id="KEY_9" mapto="nop" flags="m" />
+		
+	</map>
+</keymap>

@@ -1,0 +1,49 @@
+VirtualCD
+by Marcin Malessa
+GPL
+
+
+Virtual CD Player is simple plugin for Enigma2 at nbox
+
+NOTE!
+This is early beta verstion.
+Use at your own risk!
+
+
+By default VirtualCD use VFD display (enigma->evfd).
+
+
+INSTALL
+
+1. Copy VirtualCD directory (containing plugin.py,virtualcd.py... files)
+onto /usr/lib/enigma2/python/Plugins/Extensions/
+
+2. Restart Enigma2.
+
+3. Pray fervently ;)
+
+
+
+CONFIGURATION
+
+All "virtual CD's" must be in /hdd/music/ directory. 
+(You can change it by modify virtualcd.py file.)
+CD library looks like:
+/hdd/music/First album x/01 Song 1.flac
+			/02 Song other.flac
+			/03 next song.flac
+	  /Second album /01 song for you.flac
+			/02 next song for you.flac
+
+
+USAGE
+
+Up		- Album up
+Dn		- Album down
+Channel Up 	- Album page up
+Channel Dn 	- Album page down
+Left 		- Previous song
+Right 		- Next song
+Ok		- Play album
+Play		- Play song
+Stop		- Stop song
